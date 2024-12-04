@@ -18,6 +18,7 @@ jobs:
           input_path: ./README.md
           output_dir: ./
           images_dir: ./doc
+          image_import: doc
           build_html: true
       - name: Zip Folder
         run: |
