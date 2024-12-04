@@ -1,6 +1,6 @@
 # Overview
 
-The Pharos Web Interface is built into all Pharos controllers and allows the user to access their lighting system for both remote control and troubleshooting. The default style of this interface has been designed using a mostly white, grey and blue colour pallete.
+The Pharos Web Interface is built into all Pharos Designer controllers and allows the user to access their lighting system for both remote control and troubleshooting. The default style of this interface has been designed using a mostly white, grey and blue colour pallete.
 
 Designer 2 brings a new feature to our standard web interface allowing it to be styled by simply adding your own logo, favicon and CSS files.  We have provided this set of files to not only give you the option of a Dark Theme for your web interface but to also illustrate how you can build your own themes.
 
@@ -9,8 +9,6 @@ Default Web Interface style:
 ![Standard Web Interface](doc/standard_interface.png)
 
 # Included Files
-You can download the files for this interface by clicking on the arrow of the "Code" button at the top right and selecting "Download as Zip".
-
 Within the zip file you will find:
 
 ## Logo
@@ -25,7 +23,15 @@ The file `favicon.ico` is an alternate favicon using the Designer 2 image.  This
 
 ## Theme
 
-The file `theme-dark.css` is a new CSS (Cascading Style Sheet) file, which contains the styling information for re-colouring of the web page body, text, buttons and much more. Having a working knowledge of CSS is expected to work with this file or create your own.  However, the style of our web interface is built on Bootstrap v3.3.5 (http://getbootstrap.com).  Bootstrap designed web pages can be easily styled because the organization of all page elements is from a common recipe.  For example:  Changing the default text colour for any bootstrap designed page is simply the css style:  body { color: red } Visit the Bootstrap website for tools to create your own themes.
+The file `theme-dark.css` is a new CSS (Cascading Style Sheet) file, which contains the styling information for re-colouring of the web page body, text, buttons and much more. Having a working knowledge of CSS is expected to work with this file or create your own.  However, the style of our web interface is built on Bootstrap v3.3.5 (http://getbootstrap.com).
+
+Bootstrap designed web pages can be easily styled because the organization of all page elements is from a common recipe.  For example:  Changing the default text colour for any bootstrap designed page can be done by simply applying the css style:
+
+    body {
+        color: red
+    }
+
+Visit the Bootstrap website for tools to create your own themes.
 
 # Adding the files to Designer
 From the Project view in Designer 2, select the "Web Interface" horizontal tab. Locate the "Custom Interface Theme" section which looks like this:
