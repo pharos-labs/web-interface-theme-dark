@@ -15,7 +15,7 @@ Within the zip file you will find:
 
 The file `glyph.png` is the logo that displays in the upper left corner of the web interface pages.  The ideal size for this icon is 128px wide x 128px high when making your own.
 
-![Standard Web Interface](/glyph.png)
+![Standard Web Interface](doc/glyph.png)
 
 ## Favicon
 

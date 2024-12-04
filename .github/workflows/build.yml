@@ -19,7 +19,7 @@ jobs:
           output_dir: ./
           images_dir: ./doc
           image_import: doc
-          build_html: true
+          build_html: false
       - name: Zip Folder
         run: |
             zip -r dark-theme.zip ./ -x ".github/*" "README.md" "doc/*" ".git/*"
