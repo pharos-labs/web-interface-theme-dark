@@ -177,7 +177,6 @@ border-color: #8c8c8c;
 }
 
 .label-cell {
-    color: #fff7f7;
     border-color: #808080;
     border: 1px solid;
 }
@@ -198,6 +197,12 @@ border-color: #8c8c8c;
     background-color: #dedef2 !important;
     color: #0080ff !important;
     border-color: #0080ff !important;
+}
+
+.external {
+    background-color: #f3e8ff;
+    border-color: #6f42c1;
+    color: #6f42c1;
 }
 
 /*DALI Tab Adjustments*/
@@ -294,4 +299,13 @@ border-color: #8c8c8c;
 .bootstrap-datetimepicker-widget table td span:hover {
     background: #808080;
     color: #e7e7e7;
+}
+
+.pagination>.disabled>a {
+    background-color: #181818;
+}
+
+.pagination>li>a {
+    color: #fefefe;
+    background-color: #555;
 }
