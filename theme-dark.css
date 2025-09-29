@@ -146,14 +146,18 @@ pre {
     background-repeat: no-repeat;
     background-color: #0080ff;
 }
-.channelCell{
-    background-color: #e7e7e7!important;
-    color: #808080 !important;
+
+.dmx-table>.channel-cell{
+    color: #fff7f7;
+    border-color:#808080;
 }
-.labelCell {
-    background-color: #e7e7e7!important;
-    color: #808080 !important;
+
+.label-cell {
+    color: #fff7f7;
+    border-color:#808080;
+    border: 1px solid;
 }
+
 .unpatched{
     color: #808080 !important;
     background-color: #181818!important;
